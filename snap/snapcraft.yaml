@@ -1,0 +1,20 @@
+
+  name: saudefx
+  version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+  summary: Indicadores de saúde # 79 char long summary
+  description: |
+    Projeto feito em Java/JavaFX visando demostrar alguns indicadores de saúde.
+
+  grade: stable # must be 'stable' to release into candidate/stable channels
+  confinement: devmode # use 'strict' once you have the right plugs and slots
+
+  parts:
+    saudefx:
+      # See 'snapcraft plugins'
+      plugin: nil
+      build: |
+      export JAVA_HOME="/usr/lib/jvm/java-12-openjdk-amd64"
+      
+      build-packages:
+        - openjdk-12-jdk
+  
