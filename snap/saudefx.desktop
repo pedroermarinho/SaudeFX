@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=SaudeFX
+Comment=Indicadores de saúde
+Exec=snap run saudefx
+Terminal=false
+Categories=Utility;

@@ -2,6 +2,6 @@ module SaudeFX {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens org.openjfx to javafx.fxml;
-    exports org.openjfx;
+    opens br.com.saudefx to javafx.fxml;
+    exports br.com.saudefx;
 }
