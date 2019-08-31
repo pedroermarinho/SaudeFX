@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SaudeFX
+Comment=Indicadores de saúde
+GenericName=Indicador de saúde
+Icon=${SNAP}/saudefx.png
+Exec=saudefx
+Terminal=false
+Categories=Education;
+Encoding=UTF-8
+Type=Application
+

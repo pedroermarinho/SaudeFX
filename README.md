@@ -1,2 +1,5 @@
 # SaudeFX
 Projeto feito em Java/JavaFX visando demostrar alguns indicadores de saúde 
+
+## Snap
+snap install saudefx --candidate

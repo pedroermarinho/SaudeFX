@@ -1,7 +1,9 @@
 [Desktop Entry]
 Type=Application
+Encoding=UTF-8
 Name=SaudeFX
 Comment=Indicadores de saúde
-Exec=snap run saudefx
+Icon=${SNAP}/saudefx.png
+Exec=saudefx %F
+Categories=Education;
 Terminal=false
-Categories=Utility;
