@@ -28,7 +28,6 @@ parts:
     maven-options: [compile]
     build-packages: [openjdk-11-jdk]
     stage-packages: 
-      - openjdk-11-jre
       - libwebkit2gtk-4.0-37
     after: [desktop-gtk3]
 

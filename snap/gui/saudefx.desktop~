@@ -8,3 +8,5 @@ Exec=saudefx
 Terminal=false
 Categories=Education;
 Encoding=UTF-8
+Type=Application
+
