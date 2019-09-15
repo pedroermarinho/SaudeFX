@@ -154,3 +154,27 @@ stage/
 # Source archive packed by `snapcraft cleanbuild` before pushing to the LXD container
 
 # End of https://www.gitignore.io/api/snap,maven,snapcraft
+
+# Created by https://www.gitignore.io/api/java,code-java
+# Edit at https://www.gitignore.io/?templates=java,code-java
+
+### Code-Java ###
+# Language Support for Java(TM) by Red Hat extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=redhat.java
+
+.project
+.classpath
+factoryConfiguration.json
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
