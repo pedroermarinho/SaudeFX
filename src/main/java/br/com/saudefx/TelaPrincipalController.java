@@ -5,10 +5,11 @@
  */
 package br.com.saudefx;
 
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextField;
+
+import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXCheckBox;
+import com.jfoenix.controls.JFXComboBox;
+import com.jfoenix.controls.JFXTextField;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -25,64 +26,64 @@ import javafx.scene.control.Tab;
 public class TelaPrincipalController implements Initializable {
 
     @FXML
-    private TextField NomeField;
+    private JFXTextField NomeField;
 
     @FXML
-    private TextField IdadeField;
+    private JFXTextField IdadeField;
 
     @FXML
-    private TextField PesoField;
+    private JFXTextField PesoField;
 
     @FXML
-    private TextField AlturaField;
+    private JFXTextField AlturaField;
 
     @FXML
-    private TextField QuadrilField;
+    private JFXTextField QuadrilField;
 
     @FXML
-    private TextField AbdominaisField;
+    private JFXTextField AbdominaisField;
 
     @FXML
-    private TextField FlexaoField;
+    private JFXTextField FlexaoField;
 
     @FXML
-    private ComboBox<String> SexoCom;
+    private JFXComboBox<String> SexoCom;
 
     @FXML
-    private ComboBox<String> NAFSCom;
+    private JFXComboBox<String> NAFSCom;
 
     @FXML
-    private CheckBox PAJCheck;
+    private JFXCheckBox PAJCheck;
 
     @FXML
-    private CheckBox IMCCheck;
+    private JFXCheckBox IMCCheck;
 
     @FXML
-    private CheckBox IACCheck;
+    private JFXCheckBox IACCheck;
 
     @FXML
-    private CheckBox PICheck;
+    private JFXCheckBox PICheck;
 
     @FXML
-    private CheckBox PI2Check;
+    private JFXCheckBox PI2Check;
 
     @FXML
-    private CheckBox PNCheck;
+    private JFXCheckBox PNCheck;
 
     @FXML
-    private CheckBox TACheck;
+    private JFXCheckBox TACheck;
 
     @FXML
-    private CheckBox TFBCheck;
+    private JFXCheckBox TFBCheck;
 
     @FXML
-    private CheckBox TMBCheck;
+    private JFXCheckBox TMBCheck;
 
     @FXML
-    private CheckBox APCheck;
+    private JFXCheckBox APCheck;
 
     @FXML
-    private Button OK;
+    private JFXButton OK;
 
     @FXML
     private Tab PAJTab;
