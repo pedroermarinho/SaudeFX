@@ -10,13 +10,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:linux:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:linux:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:linux:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:11.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:linux:11.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:linux:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:linux:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:linux:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:linux:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.jfoenix:jfoenix:9.0.9" level="project" />
   </component>
 </module>
