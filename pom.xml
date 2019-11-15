@@ -47,6 +47,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
+
                     <release>11</release>
                 </configuration>
             </plugin>
@@ -78,6 +79,7 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>project-classifier</shadedClassifierName>
                             <outputFile>shade\${project.artifactId}.jar</outputFile>
@@ -92,6 +94,7 @@
 								    <resource>META-INF/spring.schemas</resource>
 							    </transformer>
                             </transformers>
+
                         </configuration>
                     </execution>
                 </executions>
