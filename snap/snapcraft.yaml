@@ -9,7 +9,7 @@ confinement: strict
 
 apps:
   saudefx:
-    command: desktop-launch java --module-path=$PATH_TO_FX --add-modules=javafx.controls,javafx.fxml -Dprism.fontsdir=$SNAP/usr/share/fonts/truetype -Dprism.useFontConfig=true -cp $SNAP/jar/SaudeFX-0.1-SNAPSHOT.jar br.com.saudefx.App
+    command: desktop-launch java --module-path=$PATH_TO_FX --add-modules=javafx.controls,javafx.fxml,com.jfoenix -cp $SNAP/jar/SaudeFX-0.1-SNAPSHOT.jar br.com.saudefx.App
     environment:
       JAVA_HOME: $SNAP/usr/lib/jvm/java-11-openjdk-amd64
       PATH: $JAVA_HOME/jre/bin:$PATH
