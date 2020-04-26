@@ -1,0 +1,37 @@
+{
+  "project_name": "SaudeFX",
+  "version": "0.1.0",
+  "description": "Projeto feito em Java / JavaFX, utilizando alguns indicadores de saúde",
+  "author": "Pedro Marinho",
+  "icon_src": "saudefx.png",
+  "snap_store_name": "saudefx",
+  "screenshot_src": [],
+  "github_username": "pedroermarinho",
+  "author_linkedin_username": "pedroermarinho",
+  "author_twitter_username": "pedroermarinho",
+  "author_website": "https://pedroermarinho.github.io/",
+  "homepage": "https://github.com/pedroermarinho/SaudeFX#readme",
+  "project_demo_url": "https://github.com/pedroermarinho/SaudeFX#readme",
+  "repository_url": "https://github.com/pedroermarinho/SaudeFX",
+  "contributing_url": "https://github.com/pedroermarinho/SaudeFX/blob/master/CONTRIBUTING.md",
+  "documentation_url": "https://github.com/pedroermarinho/SaudeFX#readme",
+  "license_url": "https://github.com/pedroermarinho/SaudeFX/blob/master/LICENSE",
+  "issues_url": "https://github.com/pedroermarinho/SaudeFX/issues",
+  "license": "MIT",
+  "install_command": ["sudo snap install saudefx"],
+  "usage_command": ["saudefx"],
+  "test_command": null,
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pedroermarinho/SaudeFX.git"
+  },
+ 
+  "keywords": [
+   
+  ],
+
+  "is_github_repos": true,
+  "has_start_command": true,
+  "has_test_command": false
+}
