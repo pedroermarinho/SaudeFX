@@ -31,7 +31,7 @@ parts:
 
   javafx-11:
     plugin: dump 
-    source: snap/local- wayland
+    source: snap/local
     stage: 
       - javafx-sdk-11.0.2
       - saudefx.png
