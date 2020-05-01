@@ -1,6 +1,6 @@
 {
   "project_name": "SaudeFX",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Projeto feito em Java / JavaFX, utilizando alguns indicadores de saúde",
   "author": "Pedro Marinho",
   "icon_src": "saudefx.png",
@@ -20,7 +20,8 @@
   "license": "MIT",
   "install_command": ["sudo snap install saudefx"],
   "usage_command": ["saudefx"],
-  "test_command": null,
+  "test_command": ["mvn install",
+    "java --module-path=snap/local/javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml,com.jfoenix --add-exports javfx.controls/com.sun.javafx.scene.control=com.jfoenix --add-exports javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix  -cp shade/SaudeFX.jar br.com.saudefx.App"],
 
   "repository": {
     "type": "git",

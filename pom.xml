@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.saudefx</groupId>
     <artifactId>SaudeFX</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.2</version>
    <properties>
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -47,7 +47,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-
                     <release>11</release>
                 </configuration>
             </plugin>
@@ -58,10 +57,15 @@
                 <configuration>
                     <release>11</release>
                     <options>
-                        <option>--add-opens</option>
                         <option>javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix</option>
-                        <option>--add-opens</option>
+                        <option>--add-exports</option>
                         <option>javafx.controls/com.sun.javafx.scene.control=com.jfoenix</option>
+                        <option>--add-exports</option>
+                        <option>javafx.base/com.sun.javafx.binding=com.jfoenix</option>
+                        <option>--add-exports</option>
+                        <option>javafx.graphics/com.sun.javafx.stage=com.jfoenix</option>
+                        <option>--add-exports</option>
+                        <option>javafx.base/com.sun.javafx.event=com.jfoenix</option>
                     </options>
                     <jlinkImageName>SaudeFX</jlinkImageName>
                     <launcher>launcher</launcher>
