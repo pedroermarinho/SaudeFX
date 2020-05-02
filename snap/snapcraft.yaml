@@ -7,27 +7,11 @@ base: core18
 grade: stable
 confinement: strict
 
-apps:
-  saudefx:
-    command: desktop-launch java --module-path=$PATH_TO_FX --add-modules=javafx.controls,javafx.fxml,com.jfoenix --add-exports javfx.controls/com.sun.javafx.scene.control=com.jfoenix --add-exports javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix -cp $SNAP/jar/SaudeFX-0.2.0.jar br.com.saudefx.App
-    environment:
-      JAVA_HOME: $SNAP/usr/lib/jvm/java-11-openjdk-amd64
-      PATH: $JAVA_HOME/jre/bin:$PATH
-      PATH_TO_FX: $SNAP/javafx-sdk-11.0.2/lib
-    plugs:
-      - desktop
-      - unity7
-
 parts:
   saudefx:
     plugin: maven 
     source: .
-    maven-options: [compile]
-    build-packages: [openjdk-11-jdk]
-    stage-packages: 
-      - openjdk-11-jre
-    after: [desktop-glib-only]
-
+    maven-options: [install]
 
   javafx-11:
     plugin: dump 
@@ -35,5 +19,19 @@ parts:
     stage: 
       - javafx-sdk-11.0.2
       - saudefx.png
-    stage-packages:
-      - openjfx
+      - saudefx.sh
+
+apps:
+  saudefx:
+    command: desktop-launch $SNAP/saudefx.sh
+    extensions: [gnome-3-28]
+    environment:
+      JAVA_HOME: $SNAP/usr/lib/jvm/java-11-openjdk-amd64
+      PATH: $JAVA_HOME/jre/bin:$PATH
+      PATH_TO_FX: $SNAP/javafx-sdk-11.0.2/lib
+    plugs:
+      - desktop
+      - unity7
+      - home
+      - network
+      - cups-control

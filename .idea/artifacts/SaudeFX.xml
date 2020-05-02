@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="javafx" name="SaudeFX">
+  <artifact type="javafx" build-on-make="true" name="SaudeFX">
     <output-path>$PROJECT_DIR$/classes/artifacts/SaudeFX</output-path>
     <properties id="javafx-properties">
       <options>
@@ -14,7 +14,7 @@
         <option name="nativeBundle" value="deb" />
         <option name="title" value="SaudeFX" />
         <option name="vendor" value="" />
-        <option name="version" value="0.1.2" />
+        <option name="version" value="0.2.0" />
       </options>
     </properties>
     <root id="root">

@@ -4,7 +4,7 @@ Welcome to SaudeFX 👋
 <a href="https://snapcraft.io/saudefx"> <br/> <img src="https://github.com/snapcore/snap-store-badges/raw/master/PT/%5BPT%5D-snap-store-black-uneditable%401x.png"></a>
 </h1>
 <p>
-<img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+<img alt="Version" src="https://img.shields.io/badge/version-0.2.0-blue.svg?cacheSeconds=2592000" />
 <a href="https://github.com/pedroermarinho/SaudeFX#readme" target="_blank"><img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" /></a>
 <a href="https://github.com/pedroermarinho/SaudeFX/graphs/commit-activity" target="_blank"><img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /></a>
 <a href="https://github.com/pedroermarinho/SaudeFX/blob/master/LICENSE" target="_blank"><img alt="License:MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
@@ -26,6 +26,12 @@ saudefx
 
 ```
 
+## Run tests
+```sh
+mvn install
+java --module-path=snap/local/javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml,com.jfoenix --add-exports javfx.controls/com.sun.javafx.scene.control=com.jfoenix --add-exports javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix  -cp shade/SaudeFX.jar br.com.saudefx.App
+
+```
 
 ## Author
 👤 **Pedro Marinho**
@@ -47,4 +53,4 @@ Copyright © 2020 [Pedro Marinho](https://github.com/pedroermarinho ).<br/>
 This project is [MIT](https://github.com/pedroermarinho/SaudeFX/blob/master/LICENSE) licensed.
 
 ---
-_This README was created with the [readme-generator](https://github.com/pedroermarinho/readme-generator)_
+_This README was created with the [markdown-readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
